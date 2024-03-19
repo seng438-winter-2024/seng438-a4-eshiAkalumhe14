@@ -81,7 +81,7 @@ Checkpoints are validation points within test scripts that capture the state of 
 - Positive Test: Navigate through different categories and select a product from one of the category.
 - Reason for Not Using Different Test Data: Unable to identify unavailable item out of large stock and range of items 
 
-### View Past Orders
+#### View Past Orders
 - Positive Test: View past orders for a user with previous purchase history.
 - Reason for Not Using Different Test Data: Insufficient data provided as previous purchase history to test with different test data for the fucntionality of testing past orders
 
@@ -101,20 +101,33 @@ Reason for Not Using Different Test Data: Unable to modify the cart past stocvk 
 
 ### Selenium 
 
-| ADVANTAGES | DISADVANTAGES |
+##### ADVANTAGES 
+ 
+- Selenium supports various web browsers, including Chrome, Firefox, Edge, and Safari, making it suitable for testing web applications across different platforms.
 
-| Selenium supports various web browsers, including Chrome, Firefox, Edge, and Safari, making it suitable for testing web applications across different platforms | Selenium is primarily designed for web application testing and may not be suitable for testing desktop or mobile applications without additional tools or frameworks. |
+- Selenium integrates seamlessly with popular test frameworks and various continuous integration tools.
 
-| Selenium integrates seamlessly with popular test frameworks and various continuous integration tools | Selenium may encounter challenges with dynamic web elements that have changing attributes or positions, requiring explicit wait conditions or workarounds to handle. |
+- Selenium provides rich APIs for interacting with web elements, enabling actions like clicking, typing, selecting, and verifying text or attributes easily.
 
-| Selenium provides rich APIs for interacting with web elements, enabling actions like clicking, typing, selecting, and verifying text or attributes easily. | Selenium tests can be fragile and prone to breakage when UI elements or page structures change, necessitating frequent maintenance and updates. |
+##### DISADVANTAGES 
+- Selenium is primarily designed for web application testing and may not be suitable for testing desktop or mobile applications without additional tools or frameworks. 
+
+- Selenium may encounter challenges with dynamic web elements that have changing attributes or positions, requiring explicit wait conditions or workarounds to handle.
+
+- Selenium tests can be fragile and prone to breakage when UI elements or page structures change, necessitating frequent maintenance and updates
+
 
 ### Sikulix
 
-| ADVANTAGES | DISADVANTAGES |
-|SikuliX uses image recognition techniques to automate interactions with graphical user interfaces (GUIs), making it versatile for testing web, desktop, and mobile applications.|SikuliX may lack certain web-specific functionalities available in Selenium, such as browser-specific interactions|
-|SikuliX simplifies UI testing by allowing testers to define interactions based on visual cues and patterns, eliminating the need for complex locators or element identification.|SikuliX image recognition may have performance implications, especially when dealing with large or complex images, leading to slower test execution times.|
-|SikuliX excels at handling dynamic elements or situations where traditional locators may fail, as it relies on visual patterns rather than static attributes.|SikuliX tests can be more prone to maintenance challenges due to changes in application UI or visual elements, requiring updates to reference images or patterns.|
+##### ADVANTAGES 
+- SikuliX uses image recognition techniques to automate interactions with graphical user interfaces (GUIs), making it versatile for testing web, desktop, and mobile applications.
+- SikuliX simplifies UI testing by allowing testers to define interactions based on visual cues and patterns, eliminating the need for complex locators or element identification.
+- SikuliX excels at handling dynamic elements or situations where traditional locators may fail, as it relies on visual patterns rather than static attributes.
+##### DISADVANTAGES 
+- SikuliX may lack certain web-specific functionalities available in Selenium, such as browser-specific interactions
+- SikuliX image recognition may have performance implications, especially when dealing with large or complex images, leading to slower test execution times.|
+- SikuliX tests can be more prone to maintenance challenges due to changes in application UI or visual elements, requiring updates to reference images or patterns.|
+
 
 # How the team work/effort was divided and managed
 
