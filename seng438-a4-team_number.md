@@ -20,7 +20,7 @@ In this lab , our emphasis was on mutation testing and GUI testing. We learned s
 
 # Analysis drawn on the effectiveness of each of the test classes 
 
-# A discussion on the effect of equivalent mutants on mutation score accuracy 
+# A discussion on the effect of equivalnt mutants on mutation score accuracy 
 - In software testing, mutation testing is a technique used to assess the quality of test cases by introducing small modifications, called mutants, into the codebase. The effectiveness of mutation testing is often measured using a metric called mutation score, which reflects the percentage of mutants killed by the test suite. However, the presence of equivalent mutants can affect the accuracy of mutation scores.
 
 - Equivalent mutants are mutations that do not change the program's behavior because they produce the same output as the original code despite having different syntax. Since equivalent mutants are functionally identical to the original code, they are not detected by the test suite and thus do not contribute to the mutation score. Consequently, the mutation score may overestimate the quality of the test suite by ignoring these mutants.
