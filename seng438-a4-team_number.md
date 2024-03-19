@@ -11,7 +11,7 @@
 | Marco Truong          | 30090441 |
 
 
-# Introduction1
+# Introduction
 
 # Analysis of 10 Mutants of the Range class 
 
