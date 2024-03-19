@@ -17,6 +17,10 @@ In this lab , our emphasis was on mutation testing and GUI testing. We learned s
 # Analysis of 10 Mutants of the Range class 
 
 # Report all the statistics and the mutation score for each test class 
+Range Mutation test score: 62%:
+![image](https://github.com/seng438-winter-2024/seng438-a4-eshiAkalumhe14/assets/95217195/e029eb3c-2e24-43b6-a15c-995d575ab781)
+
+
 
 DataUtilitiesTest Mutation test score: 90%:
 
