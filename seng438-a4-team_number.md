@@ -45,14 +45,14 @@
 
 # Explain your SELENUIM test case design process 8
 - Requirement Analysis: In this case - Requirement Analysis: In this case, we selected eBay and TSC (The Shopping Channel) websites as the target applications for our automated tests as they share similar functionalities being both online shopping web applications. Hence we were able to identifiy a list of minimum requirements to be tested such as 
-[- Sign In]
-[- Add to Cart]
-[- Browse Item]
-[- Search for Item]
-[- View Past Orders]
-[- Edit Shopping Cart]
-[- Edit Account Information]
-[- Checkout]
+- Sign In
+- Add to Cart
+- Browse Item
+- Search for Item
+- View Past Orders
+- Edit Shopping Cart
+- Edit Account Information
+- Checkout
 
 - Test Case Scenario: For each identified requirement, we formulated test scenarios covering various user actions on the websites, such as signing in, browsing items, adding items to the cart, searching for items, editing shopping cart contents, viewing past orders, and updating account information.
 We designed these scenarios to encompass both successful and unsuccessful user interactions to ensure comprehensive test coverage.
@@ -104,16 +104,12 @@ Reason for Not Using Different Test Data: Unable to modify the cart past stocvk 
 ##### ADVANTAGES 
  
 - Selenium supports various web browsers, including Chrome, Firefox, Edge, and Safari, making it suitable for testing web applications across different platforms.
-
 - Selenium integrates seamlessly with popular test frameworks and various continuous integration tools.
-
 - Selenium provides rich APIs for interacting with web elements, enabling actions like clicking, typing, selecting, and verifying text or attributes easily.
 
 ##### DISADVANTAGES 
 - Selenium is primarily designed for web application testing and may not be suitable for testing desktop or mobile applications without additional tools or frameworks. 
-
 - Selenium may encounter challenges with dynamic web elements that have changing attributes or positions, requiring explicit wait conditions or workarounds to handle.
-
 - Selenium tests can be fragile and prone to breakage when UI elements or page structures change, necessitating frequent maintenance and updates
 
 
@@ -125,8 +121,8 @@ Reason for Not Using Different Test Data: Unable to modify the cart past stocvk 
 - SikuliX excels at handling dynamic elements or situations where traditional locators may fail, as it relies on visual patterns rather than static attributes.
 ##### DISADVANTAGES 
 - SikuliX may lack certain web-specific functionalities available in Selenium, such as browser-specific interactions
-- SikuliX image recognition may have performance implications, especially when dealing with large or complex images, leading to slower test execution times.|
-- SikuliX tests can be more prone to maintenance challenges due to changes in application UI or visual elements, requiring updates to reference images or patterns.|
+- SikuliX image recognition may have performance implications, especially when dealing with large or complex images, leading to slower test execution times.
+- SikuliX tests can be more prone to maintenance challenges due to changes in application UI or visual elements, requiring updates to reference images or patterns.
 
 
 # How the team work/effort was divided and managed
