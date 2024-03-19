@@ -1,0 +1,1100 @@
+{
+  "id": "ee75107d-b6d4-44d0-b676-a35f09eec409",
+  "version": "2.0",
+  "name": "ASS4",
+  "url": "https://www.ebay.ca",
+  "tests": [{
+    "id": "5324a0c2-712f-4644-b0c3-f44092778342",
+    "name": "ADD TO CART",
+    "commands": [{
+      "id": "28394283-22c9-4237-8d0d-04a3bcdd286e",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bbf18eb6-505d-45f8-bf50-9230518b70bd",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "974x1032",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "07be4a03-63d1-458c-a4d2-4a577a70a84f",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.gh-cart__icon",
+      "targets": [
+        ["css=.gh-cart__icon", "css:finder"],
+        ["xpath=//header[@id='gh']/nav/div[2]/div[5]/div/a/span", "xpath:idRelative"],
+        ["xpath=//div[5]/div/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0ec11eb2-95d3-4232-b18a-a2ab3524dc1a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.gh-cart__icon",
+      "targets": [
+        ["css=.gh-cart__icon", "css:finder"],
+        ["xpath=//header[@id='gh']/nav/div[2]/div[5]/div/a/span", "xpath:idRelative"],
+        ["xpath=//div[5]/div/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3db96a48-3f4f-4547-a764-667b6b844f32",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Start shopping",
+      "targets": [
+        ["linkText=Start shopping", "linkText"],
+        ["css=.fake-btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Start shopping')]", "xpath:link"],
+        ["xpath=//div[@id='mainContent']/div/div[2]/div/div/div/div[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.ebay.ca')])[63]", "xpath:href"],
+        ["xpath=//div/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Start shopping')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0f4b8c04-d18c-4fc9-a75d-566cd3288129",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.vl-banner-color-block__image > .vl-image__background",
+      "targets": [
+        ["css=.vl-banner-color-block__image > .vl-image__background", "css:finder"],
+        ["xpath=//ul[@id='s0-1-0-47-1-3-5-10-0[1]-2-@match-media-0-@ebay-carousel-list']/li/div/div/div/a/div/div", "xpath:idRelative"],
+        ["xpath=//a/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "208cb8df-1747-4220-80c8-750a7ae93627",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.vl-banner-color-block__image > .vl-image__background",
+      "targets": [
+        ["css=.vl-banner-color-block__image > .vl-image__background", "css:finder"],
+        ["xpath=//ul[@id='s0-1-0-47-1-3-5-10-0[1]-2-@match-media-0-@ebay-carousel-list']/li/div/div/div/a/div/div", "xpath:idRelative"],
+        ["xpath=//a/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5ffff5b9-a190-4abb-81a7-be3951ced8ab",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=PC Laptops & Netbooks",
+      "targets": [
+        ["linkText=PC Laptops & Netbooks", "linkText"],
+        ["css=.vl-card-header__headline > a", "css:finder"],
+        ["xpath=//a[contains(text(),'PC Laptops & Netbooks')]", "xpath:link"],
+        ["xpath=//div[@id='mainContent']/div[3]/div/div/div/h2/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.ebay.ca/sch/i.html?_fsrp=1&_sacat=177&_trkparms=parentrq%3A5356856818e0ac6e1f14c615ffffbbe8%7Cpageci%3A774ac66c-e569-11ee-98e4-c25f08bbd145%7Ciid%3A1%7Cvlpname%3Avlp_homepage')]", "xpath:href"],
+        ["xpath=//div[3]/div/div/div/h2/a", "xpath:position"],
+        ["xpath=//a[contains(.,'PC Laptops & Netbooks')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "295f9c56-9d72-4864-bba0-41701478674d",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=PC Laptops & Netbooks",
+      "targets": [
+        ["linkText=PC Laptops & Netbooks", "linkText"],
+        ["css=.vl-card-header__headline > a", "css:finder"],
+        ["xpath=//a[contains(text(),'PC Laptops & Netbooks')]", "xpath:link"],
+        ["xpath=//div[@id='mainContent']/div[3]/div/div/div/h2/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.ebay.ca/sch/i.html?_fsrp=1&_sacat=177&_trkparms=parentrq%3A5356856818e0ac6e1f14c615ffffbbe8%7Cpageci%3A774ac66c-e569-11ee-98e4-c25f08bbd145%7Ciid%3A1%7Cvlpname%3Avlp_homepage')]", "xpath:href"],
+        ["xpath=//div[3]/div/div/div/h2/a", "xpath:position"],
+        ["xpath=//a[contains(.,'PC Laptops & Netbooks')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "dc1d3bb1-1b33-454b-a702-517112c994d2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.carousel__snap-point:nth-child(1) .vlp-merch-item-title",
+      "targets": [
+        ["css=.carousel__snap-point:nth-child(1) .vlp-merch-item-title", "css:finder"],
+        ["xpath=//ul[@id='s0-1-0-47-1-3-5-10-0[2]-2-@match-media-0-@ebay-carousel-list']/li/div/a/div/div[2]/h3", "xpath:idRelative"],
+        ["xpath=//a/div/div[2]/h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Sager Clevo 17.3\" i7-12700H 64GB RAM 1TB SSD RTX 3070Ti 8GB Win11 ISSUES READ')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win5658",
+      "windowTimeout": 2000
+    }, {
+      "id": "d0a9311d-0fe0-4065-bc9f-f2c8ac485c0d",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win5658}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a1141b02-ab7e-401b-8482-c0fa218b326e",
+      "comment": "",
+      "command": "mouseDown",
+      "target": "linkText=Add to cart",
+      "targets": [
+        ["linkText=Add to cart", "linkText"],
+        ["css=.x-atc-action > .ux-call-to-action", "css:finder"],
+        ["xpath=//div[@id='mainContent']/div[2]/div/div/div[2]/ul/li[2]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://cart.payments.ebay.ca/sc/add')]", "xpath:href"],
+        ["xpath=//li[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Add to cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c8913fc2-c5dc-424d-a0df-6cbe9934461b",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "css=.x-offer-price__content",
+      "targets": [
+        ["css=.x-offer-price__content", "css:finder"],
+        ["xpath=//div[@id='mainContent']/div[2]/div/div[2]/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/div[2]/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a20f0c34-041a-437d-865e-b5346322d59e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.x-buybox",
+      "targets": [
+        ["css=.x-buybox", "css:finder"],
+        ["xpath=//div[@id='mainContent']/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bee1ce8d-3cca-43a2-9f2f-d1f278b9f1c7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.x-atc-action .ux-call-to-action__text",
+      "targets": [
+        ["css=.x-atc-action .ux-call-to-action__text", "css:finder"],
+        ["xpath=//div[@id='mainContent']/div[2]/div/div/div[2]/ul/li[2]/div/a/span/span", "xpath:idRelative"],
+        ["xpath=//li[2]/div/a/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "bbddc401-7d0e-47e4-aff0-b7869869b657",
+    "name": "CHECKOUT WITH INVALID PAYMENT DETAILS",
+    "commands": [{
+      "id": "19e62e88-200f-4ce3-ae4c-4b4e94733128",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "73a5db7d-57aa-492e-9cb1-23e8a7f9ceff",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "974x1032",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "eadffcbc-a4fa-47b0-b4f7-225726209c46",
+      "comment": "",
+      "command": "click",
+      "target": "css=.gh-cart__icon",
+      "targets": [
+        ["css=.gh-cart__icon", "css:finder"],
+        ["xpath=//header[@id='gh']/nav/div[2]/div[5]/div/a/span", "xpath:idRelative"],
+        ["xpath=//div[5]/div/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'1')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2ea30a9b-e889-482a-b77f-9743f14f8d9e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn--large",
+      "targets": [
+        ["css=.btn--large", "css:finder"],
+        ["xpath=(//button[@type='button'])[25]", "xpath:attributes"],
+        ["xpath=//div[@id='mainContent']/div/div[2]/div[2]/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div/div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Go to checkout')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "42c5cdb9-2c51-4b38-a868-a1f5dc4d7856",
+      "comment": "",
+      "command": "click",
+      "target": "id=selectable-render-summary2",
+      "targets": [
+        ["id=selectable-render-summary2", "id"],
+        ["name=radio-group-paymentMethod", "name"],
+        ["css=#selectable-render-summary2", "css:finder"],
+        ["xpath=//input[@id='selectable-render-summary2']", "xpath:attributes"],
+        ["xpath=//fieldset[@id='payment-selection-fieldset']/div/div[2]/div/div/span/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "00d00d50-ffcc-4d78-8545-5fc74850a7cd",
+      "comment": "",
+      "command": "click",
+      "target": "id=cardNumber",
+      "targets": [
+        ["id=cardNumber", "id"],
+        ["name=cardNumber", "name"],
+        ["css=#cardNumber", "css:finder"],
+        ["xpath=//input[@id='cardNumber']", "xpath:attributes"],
+        ["xpath=//form[@id='credit-card-details']/section/div/fieldset/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//fieldset/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a3e22c29-e24d-43bb-9f93-65b8694aba28",
+      "comment": "",
+      "command": "click",
+      "target": "id=cardNumber",
+      "targets": [
+        ["id=cardNumber", "id"],
+        ["name=cardNumber", "name"],
+        ["css=#cardNumber", "css:finder"],
+        ["xpath=//input[@id='cardNumber']", "xpath:attributes"],
+        ["xpath=//form[@id='credit-card-details']/section/div/fieldset/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//fieldset/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e4062d34-4fc7-4d84-83f0-014319f7db6a",
+      "comment": "",
+      "command": "click",
+      "target": "id=cardNumber",
+      "targets": [
+        ["id=cardNumber", "id"],
+        ["name=cardNumber", "name"],
+        ["css=#cardNumber", "css:finder"],
+        ["xpath=//input[@id='cardNumber']", "xpath:attributes"],
+        ["xpath=//form[@id='credit-card-details']/section/div/fieldset/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//fieldset/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "29231914-ff1b-4d2f-b2fc-63f73996aeb3",
+      "comment": "",
+      "command": "type",
+      "target": "id=cardNumber",
+      "targets": [
+        ["id=cardNumber", "id"],
+        ["name=cardNumber", "name"],
+        ["css=#cardNumber", "css:finder"],
+        ["xpath=//input[@id='cardNumber']", "xpath:attributes"],
+        ["xpath=//form[@id='credit-card-details']/section/div/fieldset/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//fieldset/div/div/div/input", "xpath:position"]
+      ],
+      "value": "3455 444495 95959"
+    }, {
+      "id": "ddf5b9eb-38b0-4dce-8742-f72262705307",
+      "comment": "",
+      "command": "click",
+      "target": "id=cardExpiryDate",
+      "targets": [
+        ["id=cardExpiryDate", "id"],
+        ["name=cardExpiryDate", "name"],
+        ["css=#cardExpiryDate", "css:finder"],
+        ["xpath=//input[@id='cardExpiryDate']", "xpath:attributes"],
+        ["xpath=//form[@id='credit-card-details']/section/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3a405fce-03d8-4abb-9e64-236a9294125a",
+      "comment": "",
+      "command": "type",
+      "target": "id=cardExpiryDate",
+      "targets": [
+        ["id=cardExpiryDate", "id"],
+        ["name=cardExpiryDate", "name"],
+        ["css=#cardExpiryDate", "css:finder"],
+        ["xpath=//input[@id='cardExpiryDate']", "xpath:attributes"],
+        ["xpath=//form[@id='credit-card-details']/section/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "12/27"
+    }, {
+      "id": "0b4297bc-d6ee-44c4-83fe-b3a1f19b03e0",
+      "comment": "",
+      "command": "type",
+      "target": "id=cardExpiryDate",
+      "targets": [
+        ["id=cardExpiryDate", "id"],
+        ["name=cardExpiryDate", "name"],
+        ["css=#cardExpiryDate", "css:finder"],
+        ["xpath=//input[@id='cardExpiryDate']", "xpath:attributes"],
+        ["xpath=//form[@id='credit-card-details']/section/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "12/27"
+    }, {
+      "id": "38610402-9cfa-474a-bb7b-2b43bfa402cb",
+      "comment": "",
+      "command": "click",
+      "target": "id=securityCode",
+      "targets": [
+        ["id=securityCode", "id"],
+        ["name=securityCode", "name"],
+        ["css=#securityCode", "css:finder"],
+        ["xpath=//input[@id='securityCode']", "xpath:attributes"],
+        ["xpath=//form[@id='credit-card-details']/section/div/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7782e7ca-4fa2-48f0-ba44-3f7fc810c7f5",
+      "comment": "",
+      "command": "type",
+      "target": "id=securityCode",
+      "targets": [
+        ["id=securityCode", "id"],
+        ["name=securityCode", "name"],
+        ["css=#securityCode", "css:finder"],
+        ["xpath=//input[@id='securityCode']", "xpath:attributes"],
+        ["xpath=//form[@id='credit-card-details']/section/div/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "456"
+    }, {
+      "id": "adf5a460-e28a-46e7-9773-06e0db05100a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.heading",
+      "targets": [
+        ["css=.heading", "css:finder"],
+        ["xpath=//form[@id='credit-card-details']/section[2]/h3", "xpath:idRelative"],
+        ["xpath=//section[2]/h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Billing address')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "86a1a7b0-3480-4c2a-9da1-b4d6137cc043",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ADD_CARD > .btn",
+      "targets": [
+        ["css=.ADD_CARD > .btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='credit-card-details']/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Done')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d2261342-39f3-42c5-b02a-892bce4578d4",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.ADD_CARD > .btn",
+      "targets": [
+        ["css=.ADD_CARD > .btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='credit-card-details']/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Done')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7c04022e-36ac-4325-8ce0-41f27a08f3b5",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.ADD_CARD > .btn",
+      "targets": [
+        ["css=.ADD_CARD > .btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='credit-card-details']/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Done')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e4e0dfa3-60e4-4da2-ad27-186e8ec680d9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ADD_CARD > .btn",
+      "targets": [
+        ["css=.ADD_CARD > .btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='credit-card-details']/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Done')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "e3a6b6a6-e0f8-47a0-b738-6cba801ee7bb",
+    "name": "EDIT ACCOUNT INFORMATION WITH VALID INFORMATION",
+    "commands": [{
+      "id": "37baa5fd-4581-4ab7-adb6-411907c61167",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "50651d85-2c36-4859-b198-5ea90414bf8b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "720x666",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "81b6f278-a740-4fd8-9acb-ea2d5a18b704",
+      "comment": "",
+      "command": "click",
+      "target": "css=.is-active > .gh-flyout__target",
+      "targets": [
+        ["css=.is-active > .gh-flyout__target", "css:finder"],
+        ["xpath=//header[@id='gh']/nav/div/span/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Hi Eshilama!')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d6fffe11-4f15-4081-a371-dc2ae01b8d65",
+      "comment": "",
+      "command": "click",
+      "target": "css=.gh-identity .gh-flyout__target",
+      "targets": [
+        ["css=.gh-identity .gh-flyout__target", "css:finder"],
+        ["xpath=//header[@id='gh']/nav/div/span/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Hi Eshilama!')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c0fbe0a8-2209-4b49-b532-34d5ff44d9ee",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Account settings",
+      "targets": [
+        ["linkText=Account settings", "linkText"],
+        ["css=.gh-identity-signed-in__link:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Account settings')]", "xpath:link"],
+        ["xpath=//div[@id='s0-1-3-9-3[0]-0-1-dialog']/div/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://accountsettings.ebay.ca/uas')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Account settings')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c784c658-8e77-4f0c-9df0-205389875317",
+      "comment": "",
+      "command": "click",
+      "target": "id=account-settings-link-PI",
+      "targets": [
+        ["id=account-settings-link-PI", "id"],
+        ["linkText=Personal information", "linkText"],
+        ["css=#account-settings-link-PI", "css:finder"],
+        ["xpath=//a[contains(text(),'Personal information')]", "xpath:link"],
+        ["xpath=//a[@id='account-settings-link-PI']", "xpath:attributes"],
+        ["xpath=//div[@id='mainContent']/div[2]/div/div[2]/div/div/div/div/div/div/div/div/div/div[2]/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://accountsettings.ebay.ca/profile')]", "xpath:href"],
+        ["xpath=//div/div/div/div/div/div/div/div/div[2]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Personal information')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f645a9f6-00dc-4879-9bc7-f00d02503dcc",
+      "comment": "",
+      "command": "click",
+      "target": "id=individual_email_address_edit_button",
+      "targets": [
+        ["id=individual_email_address_edit_button", "id"],
+        ["css=#individual_email_address_edit_button", "css:finder"],
+        ["xpath=//button[@id='individual_email_address_edit_button']", "xpath:attributes"],
+        ["xpath=//div[@id='mainContent']/div[2]/div[2]/div/div[2]/div[5]/div[2]/div/div/div[2]/div/span[3]/button", "xpath:idRelative"],
+        ["xpath=//span[3]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6086cda9-21a5-424b-90b2-2253a581737f",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,300)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "45f74805-550b-468b-8fe7-79550307bcaa",
+      "comment": "",
+      "command": "click",
+      "target": "css=html",
+      "targets": [
+        ["css=html", "css:finder"],
+        ["xpath=//html", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "07618d3a-1fd6-4890-93cd-9d608bdb677b",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//form[@id='inlineEmailEditForm']/div[2]/div/div/div/span/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": "akalumheshie@gmail.com"
+    }, {
+      "id": "342df553-515c-4dde-8a56-7e33c2c5520d",
+      "comment": "",
+      "command": "click",
+      "target": "id=email_submit_edit_btn",
+      "targets": [
+        ["id=email_submit_edit_btn", "id"],
+        ["css=#email_submit_edit_btn", "css:finder"],
+        ["xpath=//button[@id='email_submit_edit_btn']", "xpath:attributes"],
+        ["xpath=//form[@id='inlineEmailEditForm']/div[3]/div/span[2]/button", "xpath:idRelative"],
+        ["xpath=//span[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Save')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2ab44a5b-0b03-4788-b8c9-5bd2483a7aa1",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=email_submit_edit_btn",
+      "targets": [
+        ["id=email_submit_edit_btn", "id"],
+        ["css=#email_submit_edit_btn", "css:finder"],
+        ["xpath=//button[@id='email_submit_edit_btn']", "xpath:attributes"],
+        ["xpath=//form[@id='inlineEmailEditForm']/div[3]/div/span[2]/button", "xpath:idRelative"],
+        ["xpath=//span[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Save')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "33b0787b-ef9d-43f8-8841-1b1776bbf7f5",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=email_submit_edit_btn",
+      "targets": [
+        ["id=email_submit_edit_btn", "id"],
+        ["css=#email_submit_edit_btn", "css:finder"],
+        ["xpath=//button[@id='email_submit_edit_btn']", "xpath:attributes"],
+        ["xpath=//form[@id='inlineEmailEditForm']/div[3]/div/span[2]/button", "xpath:idRelative"],
+        ["xpath=//span[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Save')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "62ff0216-bca7-452d-933c-dd550304ea09",
+    "name": "LOG IN WITH INVALID CREDENTIALS",
+    "commands": [{
+      "id": "11fc1861-90a8-4ada-b43e-470772cb3ce7",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "63b64493-89e4-4a72-a39f-3370dba3f2f5",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "974x523",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "03c90e2b-6d37-43e6-b66a-f30506c961a5",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Sign in",
+      "targets": [
+        ["linkText=Sign in", "linkText"],
+        ["css=.gh-identity-signed-out-recognized > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Sign in')]", "xpath:link"],
+        ["xpath=//header[@id='gh']/nav/div/span/span/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://signin.ebay.ca/ws/eBayISAPI.dll?SignIn&ru=https%3A%2F%2Fwww.ebay.ca%2F')]", "xpath:href"],
+        ["xpath=//span/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Sign in')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5ada9175-3af9-4a3a-b142-0f53c9f6cbbf",
+      "comment": "",
+      "command": "click",
+      "target": "id=switch-account-anchor",
+      "targets": [
+        ["id=switch-account-anchor", "id"],
+        ["css=#switch-account-anchor", "css:finder"],
+        ["xpath=//a[@id='switch-account-anchor']", "xpath:attributes"],
+        ["xpath=//span[@id='switch-account-link']/a", "xpath:idRelative"],
+        ["xpath=//span[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b87b081e-6d8d-4e0a-8c97-930919364896",
+      "comment": "",
+      "command": "type",
+      "target": "id=userid",
+      "targets": [
+        ["id=userid", "id"],
+        ["name=userid", "name"],
+        ["css=#userid", "css:finder"],
+        ["xpath=//input[@id='userid']", "xpath:attributes"],
+        ["xpath=//form[@id='signin-form']/div/div/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "akalumheshie@gmail.com"
+    }, {
+      "id": "9a4140f9-bbf6-4ae3-8b93-96c7aa7c935d",
+      "comment": "",
+      "command": "click",
+      "target": "id=signin-continue-btn",
+      "targets": [
+        ["id=signin-continue-btn", "id"],
+        ["name=signin-continue-btn", "name"],
+        ["css=#signin-continue-btn", "css:finder"],
+        ["xpath=//button[@id='signin-continue-btn']", "xpath:attributes"],
+        ["xpath=//form[@id='signin-form']/div/div/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Continue')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b242e123-8ec8-44b7-b208-c5b23253dc1c",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=signin-continue-btn",
+      "targets": [
+        ["id=signin-continue-btn", "id"],
+        ["name=signin-continue-btn", "name"],
+        ["css=#signin-continue-btn", "css:finder"],
+        ["xpath=//button[@id='signin-continue-btn']", "xpath:attributes"],
+        ["xpath=//form[@id='signin-form']/div/div/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Continue')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "72449013-a052-423a-b703-bcbc6030427c",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=signin-continue-btn",
+      "targets": [
+        ["id=signin-continue-btn", "id"],
+        ["name=signin-continue-btn", "name"],
+        ["css=#signin-continue-btn", "css:finder"],
+        ["xpath=//button[@id='signin-continue-btn']", "xpath:attributes"],
+        ["xpath=//form[@id='signin-form']/div/div/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "9fbf9f07-19d0-4acb-8f19-6f7de784eccd",
+    "name": "LOG IN WITH VALID CREDENTIALS",
+    "commands": [{
+      "id": "650b9d27-5bd7-488d-b9c8-b7a73e399712",
+      "comment": "",
+      "command": "open",
+      "target": "https://signin.ebay.ca/ws/eBayISAPI.dll?SignIn",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "95ae23d7-178f-4ab4-b738-902ab9a85295",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "974x523",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "20d611e6-a5dd-465e-a5ae-16952a2eeaa4",
+      "comment": "",
+      "command": "click",
+      "target": "id=userid",
+      "targets": [
+        ["id=userid", "id"],
+        ["name=userid", "name"],
+        ["css=#userid", "css:finder"],
+        ["xpath=//input[@id='userid']", "xpath:attributes"],
+        ["xpath=//form[@id='signin-form']/div/div/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "13bbb7f2-3a26-48f6-bf36-4d717615716c",
+      "comment": "",
+      "command": "click",
+      "target": "id=signin-continue-btn",
+      "targets": [
+        ["id=signin-continue-btn", "id"],
+        ["name=signin-continue-btn", "name"],
+        ["css=#signin-continue-btn", "css:finder"],
+        ["xpath=//button[@id='signin-continue-btn']", "xpath:attributes"],
+        ["xpath=//form[@id='signin-form']/div/div/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Continue')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6584e6a9-3d7f-4a23-8e76-db0541f64798",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=signin-continue-btn",
+      "targets": [
+        ["id=signin-continue-btn", "id"],
+        ["name=signin-continue-btn", "name"],
+        ["css=#signin-continue-btn", "css:finder"],
+        ["xpath=//button[@id='signin-continue-btn']", "xpath:attributes"],
+        ["xpath=//form[@id='signin-form']/div/div/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Continue')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "794f30d4-6aa3-4ecf-8b56-b5216e633265",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=signin-continue-btn",
+      "targets": [
+        ["id=signin-continue-btn", "id"],
+        ["name=signin-continue-btn", "name"],
+        ["css=#signin-continue-btn", "css:finder"],
+        ["xpath=//button[@id='signin-continue-btn']", "xpath:attributes"],
+        ["xpath=//form[@id='signin-form']/div/div/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b2a2dccc-a9a4-488f-8f94-f426d0545aa1",
+      "comment": "",
+      "command": "click",
+      "target": "id=sgnBt",
+      "targets": [
+        ["id=sgnBt", "id"],
+        ["name=sgnBt", "name"],
+        ["css=#sgnBt", "css:finder"],
+        ["xpath=//button[@id='sgnBt']", "xpath:attributes"],
+        ["xpath=//form[@id='signin-form']/div/div[3]/div/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Sign in')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "11486a2d-98f0-49d3-a6d6-a2af30a35e8b",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "f2463dc5-3a93-42fc-9be9-c8f688cbd187",
+    "name": "EDIT ACCOUNT INFORMATION WITH INVALID INFORMATION",
+    "commands": [{
+      "id": "10e44401-32fa-4098-8c3f-939ee37a9f12",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2e29743f-7e96-4f19-a8f0-e4242df6619f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "974x523",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f2b8e0e7-23a1-4ae0-a3f7-f675886bec6c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.is-active > .gh-flyout__target",
+      "targets": [
+        ["css=.is-active > .gh-flyout__target", "css:finder"],
+        ["xpath=//header[@id='gh']/nav/div/span/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Hi Eshilama!')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e0bbb33e-5adb-41b2-8474-b4b0b0ceb6b8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.gh-identity .gh-flyout__target",
+      "targets": [
+        ["css=.gh-identity .gh-flyout__target", "css:finder"],
+        ["xpath=//header[@id='gh']/nav/div/span/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Hi Eshilama!')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4d835b0c-baa8-4185-bda0-52312804d3d0",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Account settings",
+      "targets": [
+        ["linkText=Account settings", "linkText"],
+        ["css=.gh-identity-signed-in__link:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Account settings')]", "xpath:link"],
+        ["xpath=//div[@id='s0-1-3-9-3[0]-0-1-dialog']/div/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://accountsettings.ebay.ca/uas')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Account settings')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9af92cff-d9c6-4495-aede-a1c532b61f91",
+      "comment": "",
+      "command": "click",
+      "target": "id=account-settings-link-PI",
+      "targets": [
+        ["id=account-settings-link-PI", "id"],
+        ["linkText=Personal information", "linkText"],
+        ["css=#account-settings-link-PI", "css:finder"],
+        ["xpath=//a[contains(text(),'Personal information')]", "xpath:link"],
+        ["xpath=//a[@id='account-settings-link-PI']", "xpath:attributes"],
+        ["xpath=//div[@id='mainContent']/div[2]/div/div[2]/div/div/div/div/div/div/div/div/div/div[2]/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://accountsettings.ebay.ca/profile')]", "xpath:href"],
+        ["xpath=//div/div/div/div/div/div/div/div/div[2]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Personal information')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9ec6aed1-4f96-430c-abfc-78ffff4e25ff",
+      "comment": "",
+      "command": "click",
+      "target": "id=individual_email_address_edit_button",
+      "targets": [
+        ["id=individual_email_address_edit_button", "id"],
+        ["css=#individual_email_address_edit_button", "css:finder"],
+        ["xpath=//button[@id='individual_email_address_edit_button']", "xpath:attributes"],
+        ["xpath=//div[@id='mainContent']/div[2]/div[2]/div/div[2]/div[5]/div[2]/div/div/div[2]/div/span[3]/button", "xpath:idRelative"],
+        ["xpath=//span[3]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0ab4edf4-6b85-470f-b9f7-c0fef8e7ebd8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.individual__block:nth-child(5)",
+      "targets": [
+        ["css=.individual__block:nth-child(5)", "css:finder"],
+        ["xpath=//div[@id='mainContent']/div[2]/div[2]/div/div[2]/div[5]", "xpath:idRelative"],
+        ["xpath=//div/div[2]/div[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9b4454b6-3d9e-423d-b770-e12531a1df6d",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//form[@id='inlineEmailEditForm']/div[2]/div/div/div/span/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": "t23@123"
+    }, {
+      "id": "3711fc10-1e9c-4d73-b031-d5201100b392",
+      "comment": "",
+      "command": "click",
+      "target": "id=email_submit_edit_btn",
+      "targets": [
+        ["id=email_submit_edit_btn", "id"],
+        ["css=#email_submit_edit_btn", "css:finder"],
+        ["xpath=//button[@id='email_submit_edit_btn']", "xpath:attributes"],
+        ["xpath=//form[@id='inlineEmailEditForm']/div[3]/div/span[2]/button", "xpath:idRelative"],
+        ["xpath=//span[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Save')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "30d865c6-5117-4b31-b5b8-4090ae357d96",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=email_submit_edit_btn",
+      "targets": [
+        ["id=email_submit_edit_btn", "id"],
+        ["css=#email_submit_edit_btn", "css:finder"],
+        ["xpath=//button[@id='email_submit_edit_btn']", "xpath:attributes"],
+        ["xpath=//form[@id='inlineEmailEditForm']/div[3]/div/span[2]/button", "xpath:idRelative"],
+        ["xpath=//span[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Save')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1fe65171-ea3c-4cb3-9977-6e1ad00923c9",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=email_submit_edit_btn",
+      "targets": [
+        ["id=email_submit_edit_btn", "id"],
+        ["css=#email_submit_edit_btn", "css:finder"],
+        ["xpath=//button[@id='email_submit_edit_btn']", "xpath:attributes"],
+        ["xpath=//form[@id='inlineEmailEditForm']/div[3]/div/span[2]/button", "xpath:idRelative"],
+        ["xpath=//span[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Save')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "cc80ef96-f5b0-4408-9688-b03e54c86ad5",
+    "name": "ADD TO CART - INVALID STOCK AVAILABILITY1",
+    "commands": [{
+      "id": "814e18de-02f0-4ce8-879a-b21fb680e901",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d20aee00-6089-46cd-93af-751ad1e28c47",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "974x523",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6dceea64-9469-4774-816c-04eac26cc933",
+      "comment": "",
+      "command": "click",
+      "target": "id=gh-ac",
+      "targets": [
+        ["id=gh-ac", "id"],
+        ["name=_nkw", "name"],
+        ["css=#gh-ac", "css:finder"],
+        ["xpath=//input[@id='gh-ac']", "xpath:attributes"],
+        ["xpath=//div[@id='gh-ac-wrap']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b3b94ec7-1b95-41fc-a7cd-88386944cdf6",
+      "comment": "",
+      "command": "type",
+      "target": "id=gh-ac",
+      "targets": [
+        ["id=gh-ac", "id"],
+        ["name=_nkw", "name"],
+        ["css=#gh-ac", "css:finder"],
+        ["xpath=//input[@id='gh-ac']", "xpath:attributes"],
+        ["xpath=//div[@id='gh-ac-wrap']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Bose QuietComfort 45 Noise Cancelling Headphones, Certified Refurbished"
+    }, {
+      "id": "1308cf3f-8914-4203-ad30-941a29b651e0",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=gh-ac",
+      "targets": [
+        ["id=gh-ac", "id"],
+        ["name=_nkw", "name"],
+        ["css=#gh-ac", "css:finder"],
+        ["xpath=//input[@id='gh-ac']", "xpath:attributes"],
+        ["xpath=//div[@id='gh-ac-wrap']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "175b841b-0584-4fc5-b74c-22a57a7480fd",
+      "comment": "",
+      "command": "click",
+      "target": "css=#item526de87bef .s-item__title > span",
+      "targets": [
+        ["css=#item526de87bef .s-item__title > span", "css:finder"],
+        ["xpath=//li[@id='item526de87bef']/div/div[2]/a/div/span", "xpath:idRelative"],
+        ["xpath=//ul/li/div/div[2]/a/div/span", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win9929",
+      "windowTimeout": 2000
+    }, {
+      "id": "b8d50218-e306-4ada-85ae-293b2e2d0a4b",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win9929}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1a31058e-51c3-4cfb-ae01-e02b63be1623",
+      "comment": "",
+      "command": "click",
+      "target": "id=x-msku__select-box-1000",
+      "targets": [
+        ["id=x-msku__select-box-1000", "id"],
+        ["css=#x-msku__select-box-1000", "css:finder"],
+        ["xpath=//select[@id='x-msku__select-box-1000']", "xpath:attributes"],
+        ["xpath=//div[@id='mainContent']/div/div[4]/div/label/span[2]/select", "xpath:idRelative"],
+        ["xpath=//span[2]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "de1e2435-1496-40bf-8971-b6366cdea76c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.x-atf-center-river--top",
+      "targets": [
+        ["css=.x-atf-center-river--top", "css:finder"],
+        ["xpath=//div[@id='mainContent']/div", "xpath:idRelative"],
+        ["xpath=//main/div/div/div[3]/div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bf90c362-66a5-4d25-b2da-31d42cdc6c18",
+      "comment": "",
+      "command": "click",
+      "target": "id=qtyTextBox",
+      "targets": [
+        ["id=qtyTextBox", "id"],
+        ["name=quantity", "name"],
+        ["css=#qtyTextBox", "css:finder"],
+        ["xpath=//input[@id='qtyTextBox']", "xpath:attributes"],
+        ["xpath=//div[@id='mainContent']/div/div[5]/div/div/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e5c0aaca-b8c1-4cd7-aace-e3fdfe7c6499",
+      "comment": "",
+      "command": "type",
+      "target": "id=qtyTextBox",
+      "targets": [
+        ["id=qtyTextBox", "id"],
+        ["name=quantity", "name"],
+        ["css=#qtyTextBox", "css:finder"],
+        ["xpath=//input[@id='qtyTextBox']", "xpath:attributes"],
+        ["xpath=//div[@id='mainContent']/div/div[5]/div/div/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": "15"
+    }, {
+      "id": "28743bcc-22b6-40cc-9a07-3d5a62106c53",
+      "comment": "",
+      "command": "click",
+      "target": "css=.x-atc-action .ux-call-to-action__text",
+      "targets": [
+        ["css=.x-atc-action .ux-call-to-action__text", "css:finder"],
+        ["xpath=//div[@id='mainContent']/div[2]/div/div/div[2]/ul/li[2]/div/a/span/span", "xpath:idRelative"],
+        ["xpath=//li[2]/div/a/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "66ba79ff-caa7-4323-9a05-2745c14f5cd9",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://www.ebay.ca/"],
+  "plugins": []
+}

@@ -1,0 +1,768 @@
+{
+  "id": "b58d3491-f14b-45b1-9507-6dad22c0b4ec",
+  "version": "2.0",
+  "name": "ASS4_2",
+  "url": "https://www.tsc.ca",
+  "tests": [{
+    "id": "66d518b2-ff6f-4e84-8891-8782b24c5496",
+    "name": "SIGN IN",
+    "commands": [{
+      "id": "a7a68806-e960-45a5-9fc2-8c329b3af991",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "46455490-8974-44dc-a339-b9e671282d46",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "652x672",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c9cf1318-522d-4189-84bc-8b77a5bcba97",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.secondary-navigation__rhs-account-icon",
+      "targets": [
+        ["css=.secondary-navigation__rhs-account-icon", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "7deb6a1e-c557-4d39-91dc-d3f8e109cd05",
+      "comment": "",
+      "command": "click",
+      "target": "css=.secondary-navigation__rhs-account-icon",
+      "targets": [
+        ["css=.secondary-navigation__rhs-account-icon", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "9490958d-8b5f-4586-a85b-abe027327c64",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.secondary-navigation__rhs-account-icon",
+      "targets": [
+        ["css=.secondary-navigation__rhs-account-icon", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "81a89e3b-2d32-44d6-a1c9-3c70c5411d09",
+      "comment": "",
+      "command": "click",
+      "target": "css=.secondary-navigation__rhs-account-icon",
+      "targets": [
+        ["css=.secondary-navigation__rhs-account-icon", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "51e9c9ec-ddfe-4c7f-97b7-88e74b8fefd4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.secondary-navigation__rhs-account-icon__path:nth-child(3)",
+      "targets": [
+        ["css=.secondary-navigation__rhs-account-icon__path:nth-child(3)", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "075e5ceb-7858-4270-84c0-ce8833f05e2b",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.secondary-navigation__rhs-account-icon__path:nth-child(3)",
+      "targets": [
+        ["css=.secondary-navigation__rhs-account-icon__path:nth-child(3)", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "ef275d9f-0c43-460d-a354-74de0fca5145",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.secondary-navigation__rhs-account-icon__path:nth-child(3)",
+      "targets": [
+        ["css=.secondary-navigation__rhs-account-icon__path:nth-child(3)", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "3affd609-8338-47af-b352-86a92d2a6081",
+      "comment": "",
+      "command": "click",
+      "target": "id=signinLink",
+      "targets": [
+        ["id=signinLink", "id"],
+        ["css=#signinLink", "css:finder"],
+        ["xpath=//a[contains(text(),'Sign in')]", "xpath:link"],
+        ["xpath=//a[@id='signinLink']", "xpath:attributes"],
+        ["xpath=//div[@id='contentPlaceHolder_ctl83_pnlHeaderWithLogoAndSearch']/section/div/div[3]/div/nav/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/pages/signin')]", "xpath:href"],
+        ["xpath=//nav/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "372703d0-b81d-4996-8a95-421b174e4c79",
+      "comment": "",
+      "command": "type",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//span[@id='contentPlaceHolder']/div/div[2]/div/div/div/div/div/div/signin-app/div/div/ng-component/div/div/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//ng-component/div/div/div/form/div/input", "xpath:position"]
+      ],
+      "value": "eshilama.akalumhe@ucalgary.ca"
+    }, {
+      "id": "7121355f-03e6-442b-bec9-12cfcb7bb699",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//span[@id='contentPlaceHolder']/div/div[2]/div/div/div/div/div/div/signin-app/div/div/ng-component/div/div/div/form/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "eSHIE1404@"
+    }, {
+      "id": "aff5021b-fddc-46e7-96d4-2ea5d1cf0802",
+      "comment": "",
+      "command": "click",
+      "target": "css=span > .secureSigninIcon",
+      "targets": [
+        ["css=span > .secureSigninIcon", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "f78c0012-a77f-44e0-9d51-6a50d1bcf9a8",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#contentPlaceHolder_ctl87_ctlLinkBanner .block",
+      "targets": [
+        ["css=#contentPlaceHolder_ctl87_ctlLinkBanner .block", "css:finder"],
+        ["xpath=//img[@alt='Save up to 40% Off Gems & Diamonds']", "xpath:img"],
+        ["xpath=//a[@id='contentPlaceHolder_ctl87_ctlLinkBanner']/picture/img", "xpath:idRelative"],
+        ["xpath=//picture/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "57fc4a3d-5cd1-46af-9351-ccdfccdacb30",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=#contentPlaceHolder_ctl87_ctlLinkBanner .block",
+      "targets": [
+        ["css=#contentPlaceHolder_ctl87_ctlLinkBanner .block", "css:finder"],
+        ["xpath=//img[@alt='Save up to 40% Off Gems & Diamonds']", "xpath:img"],
+        ["xpath=//a[@id='contentPlaceHolder_ctl87_ctlLinkBanner']/picture/img", "xpath:idRelative"],
+        ["xpath=//picture/img", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "624979bf-7635-4f5c-a85e-2e46ff9b221b",
+    "name": "BROWSE CLOTHING",
+    "commands": [{
+      "id": "c434a850-1f9c-4ceb-85f5-8ab84d4c4f11",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8734c8c2-cde2-45e2-b8aa-921f600d8fb1",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "652x672",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "10ccd7db-15f7-459f-8495-4d60e2257af8",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=contentPlaceHolder_ctl83_ctlImgTscLogoSm",
+      "targets": [
+        ["id=contentPlaceHolder_ctl83_ctlImgTscLogoSm", "id"],
+        ["css=#contentPlaceHolder_ctl83_ctlImgTscLogoSm", "css:finder"],
+        ["xpath=//img[@alt=\"Today's Shopping Choice\"]", "xpath:img"],
+        ["xpath=//img[@id='contentPlaceHolder_ctl83_ctlImgTscLogoSm']", "xpath:attributes"],
+        ["xpath=//div[@id='contentPlaceHolder_ctl83_ctlPanTscLogoSm']/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "78438f44-99ec-49d4-bc6e-755835c1d1fe",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=contentPlaceHolder_ctl83_ctlImgTscLogoSm",
+      "targets": [
+        ["id=contentPlaceHolder_ctl83_ctlImgTscLogoSm", "id"],
+        ["css=#contentPlaceHolder_ctl83_ctlImgTscLogoSm", "css:finder"],
+        ["xpath=//img[@alt=\"Today's Shopping Choice\"]", "xpath:img"],
+        ["xpath=//img[@id='contentPlaceHolder_ctl83_ctlImgTscLogoSm']", "xpath:attributes"],
+        ["xpath=//div[@id='contentPlaceHolder_ctl83_ctlPanTscLogoSm']/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9e654cdd-59a2-4f70-910a-b6ab6a8aa0c0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.secondary-navigation__rhs-hamburger__self-rect",
+      "targets": [
+        ["css=.secondary-navigation__rhs-hamburger__self-rect", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "3fd630f8-a312-4710-ab43-51e8d2c3ffc2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mega-nav-mobile__nav-items__item:nth-child(1) .mega-nav-mobile__nav-items__item-text",
+      "targets": [
+        ["css=.mega-nav-mobile__nav-items__item:nth-child(1) .mega-nav-mobile__nav-items__item-text", "css:finder"],
+        ["xpath=//div[@id='mega-navigation-mobile']/div[3]/nav/ul/li/button/span", "xpath:idRelative"],
+        ["xpath=//nav/ul/li/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6dcab37e-b5cd-4141-907a-7f65ef976272",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Shop all Clothing & Shoes",
+      "targets": [
+        ["linkText=Shop all Clothing & Shoes", "linkText"],
+        ["css=.mega-nav-mobile__categories-item__all", "css:finder"],
+        ["xpath=//div[@id='mega-navigation-mobile']/div[5]/nav/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/pages/category?nav=n:3002802&ic=GL_Nav_ClothingShoes&fm=primary_nav')]", "xpath:href"],
+        ["xpath=//div[5]/nav/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Shop all Clothing & Shoes')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0e916e5b-6066-47ad-a702-b0242bb67602",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.aa-SubmitButton > svg",
+      "targets": [
+        ["css=.aa-SubmitButton > svg", "css:finder"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "bc14ce70-d0bd-44c6-86c5-ef5d0118d55c",
+    "name": "ADD TO CART",
+    "commands": [{
+      "id": "59cb1543-c6b3-4cf3-bc3a-a67ffe2f34c8",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bba1118b-99bf-4f17-bc95-7b1718efa27d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "652x672",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "54ca9c28-c3bb-4869-8dd7-b1290eabea69",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.secondary-navigation__rhs-container__logo",
+      "targets": [
+        ["css=.secondary-navigation__rhs-container__logo", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "f730ce92-0179-4801-ada9-3d1a1ab21987",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.secondary-navigation__rhs-container__logo",
+      "targets": [
+        ["css=.secondary-navigation__rhs-container__logo", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "dd52361f-510e-406d-aaba-0b5fa58b7d45",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.bagCounter",
+      "targets": [
+        ["css=.bagCounter", "css:finder"],
+        ["xpath=//div[@id='tagCartContainer']/a/div/span/span[2]", "xpath:idRelative"],
+        ["xpath=//span/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "32d8aefc-948e-4e1a-92c4-f1c7ca2c93f8",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.bagCounter",
+      "targets": [
+        ["css=.bagCounter", "css:finder"],
+        ["xpath=//div[@id='tagCartContainer']/a/div/span/span[2]", "xpath:idRelative"],
+        ["xpath=//span/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e0600a65-3fa0-4fe8-8ae4-a8c5799e2c05",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=secondary-navigation-mobile-hamburger",
+      "targets": [
+        ["id=secondary-navigation-mobile-hamburger", "id"],
+        ["css=#secondary-navigation-mobile-hamburger", "css:finder"],
+        ["xpath=//button[@id='secondary-navigation-mobile-hamburger']", "xpath:attributes"],
+        ["xpath=//div[@id='contentPlaceHolder_ctl83_pnlHeaderWithLogoAndSearch']/section/div/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cefa8525-48ee-44d7-8907-bb5eda613754",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=secondary-navigation-mobile-hamburger",
+      "targets": [
+        ["id=secondary-navigation-mobile-hamburger", "id"],
+        ["css=#secondary-navigation-mobile-hamburger", "css:finder"],
+        ["xpath=//button[@id='secondary-navigation-mobile-hamburger']", "xpath:attributes"],
+        ["xpath=//div[@id='contentPlaceHolder_ctl83_pnlHeaderWithLogoAndSearch']/section/div/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bd4b9754-0825-4a2b-9b3f-24b0c0d15ed4",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.secondary-navigation__rhs-hamburger__self-rect",
+      "targets": [
+        ["css=.secondary-navigation__rhs-hamburger__self-rect", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "17624538-22da-4c45-81a0-1508942077f7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.secondary-navigation__rhs-hamburger__self-rect",
+      "targets": [
+        ["css=.secondary-navigation__rhs-hamburger__self-rect", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "eedb2190-9425-43e8-8c47-d7a5c2fd8d06",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.secondary-navigation__rhs-hamburger__self-rect",
+      "targets": [
+        ["css=.secondary-navigation__rhs-hamburger__self-rect", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "d8094d2b-ca70-49fb-8b9d-8750397fc9c5",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#contentPlaceHolder_ctl87_ctlLinkBanner .block",
+      "targets": [
+        ["css=#contentPlaceHolder_ctl87_ctlLinkBanner .block", "css:finder"],
+        ["xpath=//img[@alt='Save up to 40% Off Gems & Diamonds']", "xpath:img"],
+        ["xpath=//a[@id='contentPlaceHolder_ctl87_ctlLinkBanner']/picture/img", "xpath:idRelative"],
+        ["xpath=//picture/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "863136d8-85bc-4add-bb7c-a387caeddaf8",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=#contentPlaceHolder_ctl87_ctlLinkBanner .block",
+      "targets": [
+        ["css=#contentPlaceHolder_ctl87_ctlLinkBanner .block", "css:finder"],
+        ["xpath=//img[@alt='Save up to 40% Off Gems & Diamonds']", "xpath:img"],
+        ["xpath=//a[@id='contentPlaceHolder_ctl87_ctlLinkBanner']/picture/img", "xpath:idRelative"],
+        ["xpath=//picture/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "95150936-80f7-42d9-a49d-6285237602e5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mega-nav-mobile__nav-items__item:nth-child(2) .mega-nav-mobile__nav-items__item-text",
+      "targets": [
+        ["css=.mega-nav-mobile__nav-items__item:nth-child(2) .mega-nav-mobile__nav-items__item-text", "css:finder"],
+        ["xpath=//div[@id='mega-navigation-mobile']/div[3]/nav/ul/li[2]/button/span", "xpath:idRelative"],
+        ["xpath=//nav/ul/li[2]/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e11a9898-201d-41d2-9849-29fe90493dbe",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mega-nav-mobile__categories-item__wrapper:nth-child(4) .mega-nav-mobile__categories-item__text",
+      "targets": [
+        ["css=.mega-nav-mobile__categories-item__wrapper:nth-child(4) .mega-nav-mobile__categories-item__text", "css:finder"],
+        ["xpath=//div[@id='mega-navigation-mobile']/div[5]/nav/ul/li[3]/button/span", "xpath:idRelative"],
+        ["xpath=//nav/ul/li[3]/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "04f322e2-cece-41d2-b695-b6f1b9435f71",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mega-nav-mobile__sub-categories-item__wrapper:nth-child(3) .mega-nav-mobile__sub-categories-item__text",
+      "targets": [
+        ["css=.mega-nav-mobile__sub-categories-item__wrapper:nth-child(3) .mega-nav-mobile__sub-categories-item__text", "css:finder"],
+        ["xpath=//div[@id='mega-navigation-mobile']/div[5]/nav/ul/li[3]/a/span", "xpath:idRelative"],
+        ["xpath=//nav/ul/li[3]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a8ca154d-d931-463c-b12f-e882ced1c89f",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,480)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b4b6d9a8-1947-42ba-833c-6abd0db9e4b5",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=KIM SMILEY Jewellery Tagore Clip Earrings",
+      "targets": [
+        ["linkText=KIM SMILEY Jewellery Tagore Clip Earrings", "linkText"],
+        ["css=.prp__relative:nth-child(1) .product-card__info-pname", "css:finder"],
+        ["xpath=//a[contains(text(),'KIM SMILEY Jewellery Tagore Clip Earrings')]", "xpath:link"],
+        ["xpath=//div[@id='product-results-page']/section/div/div/div[2]/div/div/form/div[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/KIM-SMILEY-Jewellery-Tagore-Clip-Earrings/pages/productdetails?nav=R:701842')])[2]", "xpath:href"],
+        ["xpath=//form/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'KIM SMILEY Jewellery Tagore Clip Earrings')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a74e278d-7983-4cda-8d68-78cf633ff45b",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,200)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "75376acc-d496-4347-912d-c67c49b3af4a",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,683.3333129882812)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e2b6fe9c-17b7-4820-8609-dd2cb131d847",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1200)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "80ca2153-4c95-4c3d-a199-6b22f0cda27f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pdp-description__add-to-bag__quantity__select",
+      "targets": [
+        ["css=.pdp-description__add-to-bag__quantity__select", "css:finder"],
+        ["xpath=//div[@id='product-details-page']/form/div[3]/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "538fbb50-e8d9-410a-a154-a599b552af14",
+      "comment": "",
+      "command": "select",
+      "target": "css=.pdp-description__add-to-bag__quantity__select",
+      "targets": [],
+      "value": "label=2"
+    }, {
+      "id": "f523d828-15d0-46c8-b757-db22fc6c86e8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pdp-description__add-to-bag__add-to-bag-button:nth-child(2)",
+      "targets": [
+        ["css=.pdp-description__add-to-bag__add-to-bag-button:nth-child(2)", "css:finder"],
+        ["xpath=(//button[@type='button'])[9]", "xpath:attributes"],
+        ["xpath=//div[@id='product-details-page']/form/div[3]/button", "xpath:idRelative"],
+        ["xpath=//form/div[3]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "38dbd6c2-7bcb-4ae1-b86f-08c252c20864",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5ccca3a3-30b2-4125-9357-3df22a198995",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-go-to-bag",
+      "targets": [
+        ["css=.btn-go-to-bag", "css:finder"],
+        ["xpath=//div[@id='pdpAddToBagDiv']/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b0890cb8-7013-44f3-a423-75ed27f6cd5b",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.max-w-1200",
+      "targets": [
+        ["css=.max-w-1200", "css:finder"],
+        ["xpath=//img[@alt='Save up to 40% Off Gems & Diamonds']", "xpath:img"],
+        ["xpath=//a[@id='contentPlaceHolder_ctl38_ctlLinkBanner']/picture/img", "xpath:idRelative"],
+        ["xpath=//picture/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "84781649-8232-4dad-bc7d-9486dcefa0eb",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.max-w-1200",
+      "targets": [
+        ["css=.max-w-1200", "css:finder"],
+        ["xpath=//img[@alt='Save up to 40% Off Gems & Diamonds']", "xpath:img"],
+        ["xpath=//a[@id='contentPlaceHolder_ctl38_ctlLinkBanner']/picture/img", "xpath:idRelative"],
+        ["xpath=//picture/img", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "b5306f83-9abf-4a4b-8c28-5aaaaade3186",
+    "name": "EDIT SHOPPING CART",
+    "commands": [{
+      "id": "9e28d50a-cde1-4d32-8492-34ac3a01514a",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "be88ecc6-5605-4ec7-afb0-eec5e57e0f49",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "652x672",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1d55fee7-91a7-4d4e-a697-7e237ad295a7",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.secondary-navigation__rhs-bag__item-icon",
+      "targets": [
+        ["css=.secondary-navigation__rhs-bag__item-icon", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "8ed535e9-66cb-4276-87de-2e7098fae1d8",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.secondary-navigation__rhs-bag__item-icon",
+      "targets": [
+        ["css=.secondary-navigation__rhs-bag__item-icon", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "a31fc584-4959-4036-92ee-bb347a5336d9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.secondary-navigation__rhs-bag__item-badge",
+      "targets": [
+        ["css=.secondary-navigation__rhs-bag__item-badge", "css:finder"],
+        ["xpath=//div[@id='tagCartContainer']/a/div/span", "xpath:idRelative"],
+        ["xpath=//div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a751fc32-ad9d-4dae-ab57-f33b9d3687ef",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,258)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "46ef1142-26a6-4b47-91e5-453ebd2f2e79",
+      "comment": "",
+      "command": "click",
+      "target": "css=.quantity__plus > svg",
+      "targets": [
+        ["css=.quantity__plus > svg", "css:finder"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "862ff018-4bce-4b6a-83e9-0eb7285d367f",
+    "name": "SEARCH FOR ITEM",
+    "commands": [{
+      "id": "9b46f29d-1a90-47b2-a94f-63bdc5c19a35",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3b4baa26-cc3d-4455-aaf1-25f891dcdd41",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "652x672",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "087fc079-0544-4e97-beb3-21eea72403af",
+      "comment": "",
+      "command": "click",
+      "target": "id=autocomplete-0-input",
+      "targets": [
+        ["id=autocomplete-0-input", "id"],
+        ["css=#autocomplete-0-input", "css:finder"],
+        ["xpath=//input[@id='autocomplete-0-input']", "xpath:attributes"],
+        ["xpath=//div[@id='contentPlaceHolder_ctl83_pnlHeaderWithLogoAndSearch']/section/div/div[2]/div/div/div/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "48c00e0f-74e4-4ef6-aa31-b927c6516e6a",
+      "comment": "",
+      "command": "type",
+      "target": "id=autocomplete-0-input",
+      "targets": [
+        ["id=autocomplete-0-input", "id"],
+        ["css=#autocomplete-0-input", "css:finder"],
+        ["xpath=//input[@id='autocomplete-0-input']", "xpath:attributes"],
+        ["xpath=//div[@id='contentPlaceHolder_ctl83_pnlHeaderWithLogoAndSearch']/section/div/div[2]/div/div/div/div/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Earrings"
+    }, {
+      "id": "c880b51a-b942-4fab-af0a-477ac8d72c4d",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=autocomplete-0-input",
+      "targets": [
+        ["id=autocomplete-0-input", "id"],
+        ["css=#autocomplete-0-input", "css:finder"],
+        ["xpath=//input[@id='autocomplete-0-input']", "xpath:attributes"],
+        ["xpath=//div[@id='contentPlaceHolder_ctl83_pnlHeaderWithLogoAndSearch']/section/div/div[2]/div/div/div/div/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "4df8a346-2116-4160-b1e6-25dbb630f8d6",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,54.66666793823242)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dae6d3cf-4baa-48ea-9dc9-340a2a11940e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Gem Reflections Sterling Silver Gemstone Hoop Earrings",
+      "targets": [
+        ["linkText=Gem Reflections Sterling Silver Gemstone Hoop Earrings", "linkText"],
+        ["css=.prp__relative:nth-child(1) .product-card__info-pname", "css:finder"],
+        ["xpath=//a[contains(text(),'Gem Reflections Sterling Silver Gemstone Hoop Earrings')]", "xpath:link"],
+        ["xpath=//div[@id='product-results-page']/section/div/div/div[2]/div/div/form/div[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/Gem-Reflections-Sterling-Silver-Gemstone-Hoop-Earrings/pages/productdetails?nav=R:242929')])[2]", "xpath:href"],
+        ["xpath=//form/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Gem Reflections Sterling Silver Gemstone Hoop Earrings')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "56d6b4ea-5cec-4891-b4c2-2d172d07f057",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,494)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "48237e2a-c46b-400f-adc0-7052bccda850",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pdp-description__add-to-bag__add-to-bag-button:nth-child(2)",
+      "targets": [
+        ["css=.pdp-description__add-to-bag__add-to-bag-button:nth-child(2)", "css:finder"],
+        ["xpath=(//button[@type='button'])[18]", "xpath:attributes"],
+        ["xpath=//div[@id='product-details-page']/form/div[3]/button", "xpath:idRelative"],
+        ["xpath=//form/div[3]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3b30b164-b8b7-43d2-82da-1fb48a89ef85",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "e118f286-5955-4ca0-a6b8-512ff9ba1cdd",
+    "name": "VIEW PAST ORDERS",
+    "commands": [{
+      "id": "77b0e8bc-28a8-4157-98e3-a3753bc752fa",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "09ed5690-656d-4692-8b53-5481f473c52b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "652x672",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3202b473-72d9-41f5-a32e-53550eee9830",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.secondary-navigation__rhs-account-icon",
+      "targets": [
+        ["css=.secondary-navigation__rhs-account-icon", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "ab2ee5e7-bc00-4f6d-bcff-d2aa605cfcd8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.secondary-navigation__rhs-account-icon",
+      "targets": [
+        ["css=.secondary-navigation__rhs-account-icon", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "4592656e-a773-4585-8b65-28ca59e004cb",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.secondary-navigation__rhs-account-icon",
+      "targets": [
+        ["css=.secondary-navigation__rhs-account-icon", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "7389fd52-0aac-4def-b24c-ea16e70db40c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.secondary-navigation__rhs-account-panel-item:nth-child(2) .secondary-navigation__rhs-account-panel-link__text",
+      "targets": [
+        ["css=.secondary-navigation__rhs-account-panel-item:nth-child(2) .secondary-navigation__rhs-account-panel-link__text", "css:finder"],
+        ["xpath=//nav[@id='secondary-navigation-rhs-account-panel']/ul/li[2]/a/span", "xpath:idRelative"],
+        ["xpath=//li[2]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "adf96905-667f-44b5-bf81-48e9504fbe21",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["66d518b2-ff6f-4e84-8891-8782b24c5496"]
+  }],
+  "urls": ["https://www.tsc.ca/"],
+  "plugins": []
+}
