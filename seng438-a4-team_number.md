@@ -18,6 +18,11 @@ In this lab , our emphasis was on mutation testing and GUI testing. We learned s
 
 # Report all the statistics and the mutation score for each test class 
 
+DataUtilitiesTest Mutation test score: 90%:
+
+![Screenshot 2024-03-18 at 2 31 29 PM](https://github.com/seng438-winter-2024/seng438-a4-eshiAkalumhe14/assets/56201575/1d94000d-fa09-4467-bfb9-1a7db42a7359)
+
+
 # Analysis drawn on the effectiveness of each of the test classes 
 
 # A discussion on the effect of equivalnt mutants on mutation score accuracy 
