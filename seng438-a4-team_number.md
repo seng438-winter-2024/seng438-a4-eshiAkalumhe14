@@ -19,8 +19,15 @@
 # Analysis drawn on the effectiveness of each of the test classes 
 
 # A discussion on the effect of equivalent mutants on mutation score accuracy 
+- In software testing, mutation testing is a technique used to assess the quality of test cases by introducing small modifications, called mutants, into the codebase. The effectiveness of mutation testing is often measured using a metric called mutation score, which reflects the percentage of mutants killed by the test suite. However, the presence of equivalent mutants can affect the accuracy of mutation scores.
+
+- Equivalent mutants are mutations that do not change the program's behavior because they produce the same output as the original code despite having different syntax. Since equivalent mutants are functionally identical to the original code, they are not detected by the test suite and thus do not contribute to the mutation score. Consequently, the mutation score may overestimate the quality of the test suite by ignoring these mutants.
 
 # A discussion of what could have been done to improve the mutation score of the test suites 
+
+- Add Test Cases: We could have introduced additional test cases targeting specific functionalities or edge cases. These new test cases should aim to cover scenarios that are not currently addressed by the existing test suite.
+
+- Use Different Mutation Operators: We could have used a larger variety of mutation operators to create mutants that represent different types of faults. By diversifying mutation operators, you can increase the likelihood of generating meaningful mutants that are not easily detected by existing test cases.
 
 # Why do we need mutation testing? Advantages and disadvantages of mutation testing
 
