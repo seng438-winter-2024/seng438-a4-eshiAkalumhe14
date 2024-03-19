@@ -1,4 +1,4 @@
-**SENG 438 - Software Testing, Reliability, and Quality**
+ **SENG 438 - Software Testing, Reliability, and Quality**
 
 **Lab. Report \#4 – Mutation Testing and Web app testing**
 
@@ -28,6 +28,15 @@ DataUtilitiesTest Mutation test score: 90%:
 
 
 # Analysis drawn on the effectiveness of each of the test classes 
+
+A high test coverage shows that much of the code has been tested through the execution of various test cases, it increases confidence in the software's correctness and robustness. It also helps in identifying potential bugs or issues early in the development process.
+
+A high Mutation Coverage shows that a large portion of the code has been tested for robustness against mutations. which basically suggests that the test suite is effective in identifying and handling various types of faults or mutations injected into the codebase. 
+
+The DataUtilitiesTest class is very effective as we can see 90% test strenghth with 90% mutation coverage and the RangeTest class is also effective as we can see 73% test strenghth with 62% mutation coverage. 
+
+as we can see, the DataUtilitiesTest class perform very well and the RangeTest class performs slightly worse but still well. The rangetest class has lower mutation coverage at 62% which suggests that it is not as effective as catching the mutations created by the Pitest.
+
 
 # A discussion on the effect of equivalnt mutants on mutation score accuracy 
 - In software testing, mutation testing is a technique used to assess the quality of test cases by introducing small modifications, called mutants, into the codebase. The effectiveness of mutation testing is often measured using a metric called mutation score, which reflects the percentage of mutants killed by the test suite. However, the presence of equivalent mutants can affect the accuracy of mutation scores.
