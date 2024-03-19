@@ -5,10 +5,11 @@
 | Group \#:             |     |
 | --------------        | --- |
 | Student Names:        |     |
-| Eshilama AKalumhe     | 30140722 |
+| Abhyudai Singh        | 30157580 |
+| Akalumhe Eshilama     | 30140722 |
 | Emiko Emiko           | 30161505 |
-| Marco Truong          |     |
-|                       |     |
+| Marco Truong          | 30090441 |
+
 
 # Introduction1
 
@@ -133,7 +134,10 @@ Reason for Not Using Different Test Data: Unable to modify the cart past stocvk 
 
 
 # How the team work/effort was divided and managed
+We decided to tackle each section of the lab individually before to coming together to integrate everything and discuss best options out of our test cases to pick,. We decided upon this just so that everyone can get a clear understanding of how mutation tetsing works and . As for the GUI testing each member was assigned a functionlities to work on with the option of testing more functions on their end.
 
 # Difficulties encountered, challenges overcome, and lessons learned
+We encountered difficulties with getting Pitest to work, however after asking around, we learned that the issue was with the project configuration. It had to be set up with JSE-1.6 and not 1.8.
 
 # Comments/feedback on the lab itself
+Even though we figured it out, dealing with Pitest was a bit of a hassle at first. However working with Selenium to automate tests on GUI's proved to be rather interesting.
