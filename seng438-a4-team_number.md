@@ -102,8 +102,11 @@ Reason for Not Using Different Test Data: Unable to modify the cart past stocvk 
 ### Selenium 
 
 | ADVANTAGES | DISADVANTAGES |
+
 |Selenium supports various web browsers, including Chrome, Firefox, Edge, and Safari, making it suitable for testing web applications across different platforms|Selenium is primarily designed for web application testing and may not be suitable for testing desktop or mobile applications without additional tools or frameworks.|
+
 |Selenium integrates seamlessly with popular test frameworks and various continuous integration tools| Selenium may encounter challenges with dynamic web elements that have changing attributes or positions, requiring explicit wait conditions or workarounds to handle|
+
 |Selenium provides rich APIs for interacting with web elements, enabling actions like clicking, typing, selecting, and verifying text or attributes easily.|Selenium tests can be fragile and prone to breakage when UI elements or page structures change, necessitating frequent maintenance and updates.|
 
 ### Sikulix
