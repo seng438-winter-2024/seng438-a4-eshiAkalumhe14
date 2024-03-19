@@ -43,7 +43,7 @@
 
 - Mutation testing requires manaul effort to detect equivalent mutants despite the use of assistance of automated tools in generating mutants. 
 
-# Explain your SELENUIM test case design process 8
+# Explain your SELENUIM test case design process 
 - Requirement Analysis: In this case - Requirement Analysis: In this case, we selected eBay and TSC (The Shopping Channel) websites as the target applications for our automated tests as they share similar functionalities being both online shopping web applications. Hence we were able to identifiy a list of minimum requirements to be tested such as 
 - Sign In
 - Add to Cart
@@ -61,13 +61,13 @@ We designed these scenarios to encompass both successful and unsuccessful user i
 
 - Writing Test Scripts: Using the selenium driver, we wrote different test scripts to capture our test data and scenarios. During this we made sure to record and handle any preconditions for our various test scripts.
 
-# Explain the use of assertions and checkpoints 9
+# Explain the use of assertions and checkpoints 
 
 Assertions are statements within test scripts that verify expected conditions and behaviours during the execution of test suites for a SUT. They are used to evaluate if the actaul outcome of a SUT matches the expected outcome of the program.
 
 Checkpoints are validation points within test scripts that capture the state of the application or certain elements at specific points during the execution of tests. They help pinpoint the state of an aaplication at various stages to ensure it aligns with its expected behaviour at those stages.
 
-# how did you test each functionaity with different test data 10
+# How did you test each functionaity with different test data 
 #### Sign In:
 
 - Positive Test: Use valid login credentials for a registered user to sign in successfully.
@@ -97,7 +97,7 @@ Reason for Not Using Different Test Data: Unable to modify the cart past stocvk 
 - Negative Test: Attempt to checkout without providing necessary information or with invalid payment details.
 - Reason for Not Using Different Test Data: Unable to provide payment information in the test for security reasons
 
-# Discuss advantages and disadvantages of Selenium vs. Sikulix 11
+# Discuss advantages and disadvantages of Selenium vs. Sikulix 
 
 ### Selenium 
 
@@ -126,7 +126,6 @@ Reason for Not Using Different Test Data: Unable to modify the cart past stocvk 
 
 
 # How the team work/effort was divided and managed
-
 
 # Difficulties encountered, challenges overcome, and lessons learned
 
