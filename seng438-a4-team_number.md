@@ -11,8 +11,9 @@
 | Marco Truong          | 30090441 |
 
 
-# Introduction1
+# Introduction
 
+In this lab , our emphasis was on mutation testing and GUI testing. We learned skills in adding mutation faults into a Java codebase using a mutation testing tool, interpreting the resulting mutation scores, and using this knowledge to devise new test cases for enhancing the overall quality of our test suite. Additionally, we also got introduced to the usage of Selenium, a tool for web interface testing, and made comparisons with another tool, Sikulix. Furthermore, we gained proficiency in writing test cases specifically for web applications.
 # Analysis of 10 Mutants of the Range class 
 
 # Report all the statistics and the mutation score for each test class 
